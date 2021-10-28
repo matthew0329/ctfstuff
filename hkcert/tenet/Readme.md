@@ -37,7 +37,7 @@ With meet in the middle attack, we can reduce the time complexity of bruteforcin
 for i in range(0, combination):
 	key = keyPrefix + i.to_bytes(3, 'big')
 	aes128 = AES.new(key=key, mode=AES.MODE_CTR, counter=Counter.new(128, initial_value=1))
-	encryptedPrefix = aes128.decrypt(keyPrefix).hex()
+	encryptedPrefix = aes128.decrypt(flagPrefix).hex()
 	lookup[encryptedPrefix] = i
 ```
 But for a meet-in-the-middle attack, we need both the plain text and ciphertext to find the key.

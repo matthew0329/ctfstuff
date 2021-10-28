@@ -1,0 +1,2 @@
+hkcert21{this_is_fake_flag}
+

@@ -7,6 +7,9 @@ Future people bring us time inversion and quantum computers. Try to decrypt the 
 ```
 Ciphertext: 6255c24aa3dd8f58c5fcb41feb90f90e73e870db651d5a963498f062c2c1572430098acf05
 ```
+```
+hint: Tips: In "Tenet", red team and blue team meet in the middle.
+```
 enc.py file
 
 ## Write-up

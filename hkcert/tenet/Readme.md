@@ -37,6 +37,7 @@ https://en.wikipedia.org/wiki/Meet-in-the-middle_attack
 With meet in the middle attack, we can reduce the time complexity of bruteforcing the key from O(n^2) (let n be 16*16*16) to O(nlgn)(sort) or O(n)(hashing) which significantly reduce the computation needed
 ```python
 #create a lookup dictionary to store all encrypted prefix with corresponding key
+combination = 256*256*256
 for i in range(0, combination):
 	key = keyPrefix + i.to_bytes(3, 'big')
 	aes128 = AES.new(key=key, mode=AES.MODE_CTR, counter=Counter.new(128, initial_value=1))

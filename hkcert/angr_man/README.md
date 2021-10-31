@@ -43,6 +43,7 @@ We just need to specify all possible input and what output we want to find
 
 ## template that i found
 I literally just copy from their sample and changed only at those statements that i bolded siu444
+https://github.com/angr/angr-doc/blob/master/examples/b01lersctf2020_little_engine/solve.py
 It tooks about 37seconds to run and get this easy flag
 ```python
 #!/usr/bin/env python
